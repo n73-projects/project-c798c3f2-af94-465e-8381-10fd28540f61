@@ -226,125 +226,87 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-              Competitive Pricing Plans
+              Simple Usage-Based Pricing
             </h2>
             <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              Choose the perfect plan for your needs. All plans include 24/7 support and a 7-day free trial.
+              Pay only for what you use. No monthly fees, no commitments. Start with a free trial.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-gray-400 dark:hover:border-gray-500 transition-colors bg-white dark:bg-[#1f1f1f]">
-              <CardHeader>
-                <CardTitle className="text-2xl dark:text-slate-100">Starter</CardTitle>
-                <CardDescription className="dark:text-slate-400">Perfect for small projects</CardDescription>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-slate-900 dark:text-slate-100">$29</span>
-                  <span className="text-slate-600 dark:text-slate-400">/month</span>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">5GB of data transfer</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">50+ countries</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">HTTP/HTTPS support</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">24/7 support</span>
-                  </li>
-                </ul>
-                <Button className="w-full mt-6" variant="outline">
-                  Get Started
-                </Button>
-              </CardContent>
-            </Card>
+          <div className="flex justify-center">
+            <div className="max-w-md w-full">
+              <Card className="border-2 border-gray-400 dark:border-gray-500 shadow-xl bg-white dark:bg-[#1f1f1f] text-center">
+                <CardHeader className="pb-8">
+                  <div className="mb-6">
+                    <div className="text-6xl font-bold text-slate-900 dark:text-slate-100">$0.8</div>
+                    <div className="text-xl text-slate-600 dark:text-slate-400 mt-2">per GB</div>
+                  </div>
+                  <CardTitle className="text-3xl dark:text-slate-100 mb-2">Pay-as-you-go</CardTitle>
+                  <CardDescription className="dark:text-slate-400 text-lg">
+                    Simple, transparent pricing. No hidden fees.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-4 text-left mb-8">
+                    <li className="flex items-center">
+                      <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-3" />
+                      <span className="dark:text-slate-300">190+ countries worldwide</span>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-3" />
+                      <span className="dark:text-slate-300">HTTP/HTTPS & SOCKS5 support</span>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-3" />
+                      <span className="dark:text-slate-300">99.9% uptime guarantee</span>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-3" />
+                      <span className="dark:text-slate-300">Automatic IP rotation</span>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-3" />
+                      <span className="dark:text-slate-300">24/7 premium support</span>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-3" />
+                      <span className="dark:text-slate-300">No monthly commitments</span>
+                    </li>
+                  </ul>
+                  <div className="space-y-3">
+                    <Button className="w-full bg-gray-800 hover:bg-gray-900 dark:bg-gray-200 dark:hover:bg-gray-100 dark:text-gray-800">
+                      Start Free Trial
+                    </Button>
+                    <p className="text-sm text-slate-500 dark:text-slate-400">
+                      1GB free trial • No credit card required
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
 
-            <Card className="border-2 border-gray-400 dark:border-gray-500 shadow-lg scale-105 relative bg-white dark:bg-[#1f1f1f]">
-              <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gray-800 dark:bg-gray-200 dark:text-gray-800">
-                Most Popular
-              </Badge>
-              <CardHeader>
-                <CardTitle className="text-2xl dark:text-slate-100">Professional</CardTitle>
-                <CardDescription className="dark:text-slate-400">For growing businesses</CardDescription>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-slate-900 dark:text-slate-100">$99</span>
-                  <span className="text-slate-600 dark:text-slate-400">/month</span>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">50GB of data transfer</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">150+ countries</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">SOCKS5 support</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">Priority support</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">IP rotation</span>
-                  </li>
-                </ul>
-                <Button className="w-full mt-6 bg-gray-800 hover:bg-gray-900 dark:bg-gray-200 dark:hover:bg-gray-100 dark:text-gray-800">
-                  Get Started
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-gray-400 dark:hover:border-gray-500 transition-colors bg-white dark:bg-[#1f1f1f]">
-              <CardHeader>
-                <CardTitle className="text-2xl dark:text-slate-100">Enterprise</CardTitle>
-                <CardDescription className="dark:text-slate-400">For large scale operations</CardDescription>
-                <div className="mt-4">
-                  <span className="text-4xl font-bold text-slate-900 dark:text-slate-100">$299</span>
-                  <span className="text-slate-600 dark:text-slate-400">/month</span>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">500GB of data transfer</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">190+ countries</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">Dedicated IPs</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">Custom integration</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-500 dark:text-green-400 mr-2" />
-                    <span className="dark:text-slate-300">Account manager</span>
-                  </li>
-                </ul>
-                <Button className="w-full mt-6" variant="outline">
-                  Contact Sales
-                </Button>
-              </CardContent>
-            </Card>
+          {/* Pricing Examples */}
+          <div className="mt-16 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold text-center text-slate-900 dark:text-slate-100 mb-8">
+              Simple Pricing Examples
+            </h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center p-6 bg-white dark:bg-[#202020] rounded-lg border border-slate-200 dark:border-[#2a2a2a]">
+                <div className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-2">$8</div>
+                <div className="text-slate-600 dark:text-slate-400 mb-1">10 GB</div>
+                <div className="text-sm text-slate-500 dark:text-slate-500">Small projects</div>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-[#202020] rounded-lg border border-slate-200 dark:border-[#2a2a2a]">
+                <div className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-2">$40</div>
+                <div className="text-slate-600 dark:text-slate-400 mb-1">50 GB</div>
+                <div className="text-sm text-slate-500 dark:text-slate-500">Medium usage</div>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-[#202020] rounded-lg border border-slate-200 dark:border-[#2a2a2a]">
+                <div className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-2">$80</div>
+                <div className="text-slate-600 dark:text-slate-400 mb-1">100 GB</div>
+                <div className="text-sm text-slate-500 dark:text-slate-500">Heavy usage</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
