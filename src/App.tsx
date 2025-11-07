@@ -11,9 +11,9 @@ function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-[#141414] dark:to-[#0f0f0f]">
       {/* Navigation */}
-      <nav className="sticky top-0 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 z-50">
+      <nav className="sticky top-0 bg-white/80 dark:bg-[#141414]/90 backdrop-blur-md border-b border-slate-200 dark:border-[#2a2a2a] z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
@@ -51,7 +51,7 @@ function App() {
 
           {/* Mobile Navigation Menu */}
           {mobileMenuOpen && (
-            <div className="md:hidden border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 py-4">
+            <div className="md:hidden border-t border-slate-200 dark:border-[#2a2a2a] bg-white dark:bg-[#1a1a1a] py-4">
               <div className="flex flex-col space-y-4">
                 <a
                   href="#features"
@@ -94,7 +94,7 @@ function App() {
       <section className="pt-20 pb-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Badge className="mb-6 bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800">
+            <Badge className="mb-6 bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-700/50">
               Premium Proxy Network
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
@@ -140,7 +140,7 @@ function App() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 bg-slate-50 dark:bg-slate-900/50">
+      <section id="features" className="py-20 bg-slate-50 dark:bg-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 dark:text-slate-100 mb-4">
@@ -151,9 +151,9 @@ function App() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-slate-900/20 dark:hover:shadow-slate-900/40 transition-shadow bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-black/20 dark:hover:shadow-black/40 transition-shadow bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardHeader>
-                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-950 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mb-4">
                   <Shield className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                 </div>
                 <CardTitle className="dark:text-slate-100">Premium Security</CardTitle>
@@ -162,9 +162,9 @@ function App() {
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-slate-900/20 dark:hover:shadow-slate-900/40 transition-shadow bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-black/20 dark:hover:shadow-black/40 transition-shadow bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardHeader>
-                <div className="w-12 h-12 bg-green-100 dark:bg-green-950 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center mb-4">
                   <Globe className="h-6 w-6 text-green-600 dark:text-green-400" />
                 </div>
                 <CardTitle className="dark:text-slate-100">Global Coverage</CardTitle>
@@ -173,9 +173,9 @@ function App() {
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-slate-900/20 dark:hover:shadow-slate-900/40 transition-shadow bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-black/20 dark:hover:shadow-black/40 transition-shadow bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardHeader>
-                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-950 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mb-4">
                   <Zap className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                 </div>
                 <CardTitle className="dark:text-slate-100">Lightning Fast</CardTitle>
@@ -184,9 +184,9 @@ function App() {
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-slate-900/20 dark:hover:shadow-slate-900/40 transition-shadow bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-black/20 dark:hover:shadow-black/40 transition-shadow bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardHeader>
-                <div className="w-12 h-12 bg-orange-100 dark:bg-orange-950 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-orange-600 dark:text-orange-400" />
                 </div>
                 <CardTitle className="dark:text-slate-100">Easy Integration</CardTitle>
@@ -195,9 +195,9 @@ function App() {
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-slate-900/20 dark:hover:shadow-slate-900/40 transition-shadow bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-black/20 dark:hover:shadow-black/40 transition-shadow bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardHeader>
-                <div className="w-12 h-12 bg-red-100 dark:bg-red-950 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-red-100 dark:bg-red-900/30 rounded-lg flex items-center justify-center mb-4">
                   <CheckCircle className="h-6 w-6 text-red-600 dark:text-red-400" />
                 </div>
                 <CardTitle className="dark:text-slate-100">High Success Rate</CardTitle>
@@ -206,9 +206,9 @@ function App() {
                 </CardDescription>
               </CardHeader>
             </Card>
-            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-slate-900/20 dark:hover:shadow-slate-900/40 transition-shadow bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg hover:shadow-xl dark:shadow-black/20 dark:hover:shadow-black/40 transition-shadow bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardHeader>
-                <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-950 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg flex items-center justify-center mb-4">
                   <Lock className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
                 </div>
                 <CardTitle className="dark:text-slate-100">Ethical Sourcing</CardTitle>
@@ -222,7 +222,7 @@ function App() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-20 dark:bg-slate-950/30">
+      <section id="pricing" className="py-20 dark:bg-[#101010]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 dark:text-slate-100 mb-4">
@@ -233,7 +233,7 @@ function App() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-2 border-slate-200 dark:border-slate-700 hover:border-blue-300 dark:hover:border-blue-600 transition-colors bg-white dark:bg-slate-800">
+            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-blue-300 dark:hover:border-blue-600 transition-colors bg-white dark:bg-[#1f1f1f]">
               <CardHeader>
                 <CardTitle className="text-2xl dark:text-slate-100">Starter</CardTitle>
                 <CardDescription className="dark:text-slate-400">Perfect for small projects</CardDescription>
@@ -267,7 +267,7 @@ function App() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-blue-300 dark:border-blue-600 shadow-lg scale-105 relative bg-white dark:bg-slate-800">
+            <Card className="border-2 border-blue-300 dark:border-blue-600 shadow-lg scale-105 relative bg-white dark:bg-[#1f1f1f]">
               <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-600 dark:bg-blue-500">
                 Most Popular
               </Badge>
@@ -308,7 +308,7 @@ function App() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-slate-200 dark:border-slate-700 hover:border-purple-300 dark:hover:border-purple-600 transition-colors bg-white dark:bg-slate-800">
+            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-purple-300 dark:hover:border-purple-600 transition-colors bg-white dark:bg-[#1f1f1f]">
               <CardHeader>
                 <CardTitle className="text-2xl dark:text-slate-100">Enterprise</CardTitle>
                 <CardDescription className="dark:text-slate-400">For large scale operations</CardDescription>
@@ -350,7 +350,7 @@ function App() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-slate-50 dark:bg-slate-900/50">
+      <section className="py-20 bg-slate-50 dark:bg-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 dark:text-slate-100 mb-4">
@@ -373,7 +373,7 @@ function App() {
                   The speed and reliability are unmatched."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-blue-100 dark:bg-blue-950 rounded-full flex items-center justify-center mr-3">
+                  <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
                     <span className="text-blue-600 dark:text-blue-400 font-semibold">JD</span>
                   </div>
                   <div>
@@ -396,7 +396,7 @@ function App() {
                   Highly recommend Nato for any proxy needs."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-green-100 dark:bg-green-950 rounded-full flex items-center justify-center mr-3">
+                  <div className="w-10 h-10 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mr-3">
                     <span className="text-green-600 dark:text-green-400 font-semibold">SM</span>
                   </div>
                   <div>
@@ -419,7 +419,7 @@ function App() {
                   for our international web scraping projects."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-10 h-10 bg-purple-100 dark:bg-purple-950 rounded-full flex items-center justify-center mr-3">
+                  <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-3">
                     <span className="text-purple-600 dark:text-purple-400 font-semibold">MW</span>
                   </div>
                   <div>
@@ -434,7 +434,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 dark:bg-slate-950/30">
+      <section id="contact" className="py-20 dark:bg-[#101010]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
@@ -447,7 +447,7 @@ function App() {
 
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-950 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mr-4">
                     <Mail className="h-6 w-6 text-blue-600 dark:text-blue-400" />
                   </div>
                   <div>
@@ -478,7 +478,7 @@ function App() {
               </div>
             </div>
 
-            <Card className="border-0 shadow-xl dark:shadow-slate-900/20 bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-xl dark:shadow-black/20 bg-white dark:bg-[#1f1f1f] dark:border-[#2a2a2a]">
               <CardHeader>
                 <CardTitle className="dark:text-slate-100">Send us a message</CardTitle>
                 <CardDescription className="dark:text-slate-400">
@@ -533,7 +533,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 dark:bg-slate-950 text-white py-16">
+      <footer className="bg-slate-900 dark:bg-[#0f0f0f] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
