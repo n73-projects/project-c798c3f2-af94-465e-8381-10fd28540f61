@@ -236,13 +236,18 @@ function App() {
             <div className="max-w-md w-full">
               <Card className="border-2 border-gray-400 dark:border-gray-500 shadow-xl bg-white dark:bg-[#1f1f1f] text-center">
                 <CardHeader className="pb-8">
-                  <div className="mb-6">
-                    <div className="text-6xl font-bold text-slate-900 dark:text-slate-100">$0.8</div>
-                    <div className="text-xl text-slate-600 dark:text-slate-400 mt-2">per GB</div>
+                  <div className="mb-8">
+                    <div className="inline-flex items-baseline">
+                      <span className="text-5xl font-bold text-slate-900 dark:text-slate-100">$0.8</span>
+                      <span className="text-xl text-slate-600 dark:text-slate-400 ml-2 font-medium">/GB</span>
+                    </div>
+                    <div className="text-sm text-slate-500 dark:text-slate-500 mt-2">
+                      Pay only for what you use
+                    </div>
                   </div>
-                  <CardTitle className="text-3xl dark:text-slate-100 mb-2">Pay-as-you-go</CardTitle>
+                  <CardTitle className="text-3xl dark:text-slate-100 mb-2">Simple Pricing</CardTitle>
                   <CardDescription className="dark:text-slate-400 text-lg">
-                    Simple, transparent pricing. No hidden fees.
+                    No monthly fees, no commitments, no hidden costs.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
