@@ -543,43 +543,43 @@ function App() {
                 </div>
                 <span className="text-2xl font-bold">Nato</span>
               </div>
-              <p className="text-slate-400 dark:text-slate-500 mb-4">
+              <p className="text-gray-400 dark:text-gray-500 mb-4">
                 Premium residential proxy service provider offering high-quality IPs at competitive prices.
               </p>
             </div>
 
             <div>
-              <h3 className="font-semibold mb-4 text-slate-100">Product</h3>
-              <ul className="space-y-2 text-slate-400 dark:text-slate-500">
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Residential Proxies</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">API Documentation</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Integration Guide</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Status Page</a></li>
+              <h3 className="font-semibold mb-4 text-gray-100">Product</h3>
+              <ul className="space-y-2 text-gray-400 dark:text-gray-500">
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Residential Proxies</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">API Documentation</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Integration Guide</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Status Page</a></li>
               </ul>
             </div>
 
             <div>
-              <h3 className="font-semibold mb-4 text-slate-100">Company</h3>
-              <ul className="space-y-2 text-slate-400 dark:text-slate-500">
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Press</a></li>
+              <h3 className="font-semibold mb-4 text-gray-100">Company</h3>
+              <ul className="space-y-2 text-gray-400 dark:text-gray-500">
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Blog</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Careers</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Press</a></li>
               </ul>
             </div>
 
             <div>
-              <h3 className="font-semibold mb-4 text-slate-100">Support</h3>
-              <ul className="space-y-2 text-slate-400 dark:text-slate-500">
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Help Center</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Contact Support</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white dark:hover:text-slate-300 transition-colors">Privacy Policy</a></li>
+              <h3 className="font-semibold mb-4 text-gray-100">Support</h3>
+              <ul className="space-y-2 text-gray-400 dark:text-gray-500">
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Help Center</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Contact Support</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Terms of Service</a></li>
+                <li><a href="#" className="hover:text-white dark:hover:text-gray-300 transition-colors">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
 
-          <div className="border-t border-slate-800 dark:border-slate-800 mt-12 pt-8 text-center text-slate-400 dark:text-slate-500">
+          <div className="border-t border-gray-800 dark:border-gray-800 mt-12 pt-8 text-center text-gray-400 dark:text-gray-500">
             <p>&copy; 2024 Nato Proxy Services. All rights reserved.</p>
           </div>
         </div>
