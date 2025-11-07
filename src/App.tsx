@@ -17,20 +17,20 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">N</span>
+              <div className="w-8 h-8 bg-gradient-to-r from-gray-800 to-slate-600 dark:from-gray-200 dark:to-gray-400 rounded-lg flex items-center justify-center">
+                <span className="text-white dark:text-gray-800 font-bold text-lg">N</span>
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <span className="text-2xl font-bold bg-gradient-to-r from-gray-800 to-slate-600 dark:from-gray-200 dark:to-gray-400 bg-clip-text text-transparent">
                 Nato
               </span>
             </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Features</a>
-              <a href="#pricing" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Pricing</a>
-              <a href="#about" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
-              <a href="#contact" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+              <a href="#features" className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors">Features</a>
+              <a href="#pricing" className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors">Pricing</a>
+              <a href="#about" className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors">About</a>
+              <a href="#contact" className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors">Contact</a>
               <ThemeToggle />
               <Button>Get Started</Button>
             </div>
@@ -55,28 +55,28 @@ function App() {
               <div className="flex flex-col space-y-4">
                 <a
                   href="#features"
-                  className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors px-4"
+                  className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors px-4"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Features
                 </a>
                 <a
                   href="#pricing"
-                  className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors px-4"
+                  className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors px-4"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Pricing
                 </a>
                 <a
                   href="#about"
-                  className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors px-4"
+                  className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors px-4"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   About
                 </a>
                 <a
                   href="#contact"
-                  className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors px-4"
+                  className="text-slate-700 dark:text-slate-300 hover:text-gray-900 dark:hover:text-white transition-colors px-4"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Contact
@@ -94,11 +94,11 @@ function App() {
       <section className="pt-20 pb-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <Badge className="mb-6 bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-700/50">
+            <Badge className="mb-6 bg-gray-100 dark:bg-gray-700/20 text-gray-800 dark:text-gray-300 border-gray-300 dark:border-gray-600/50">
               Premium Proxy Network
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8">
-              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 dark:from-blue-400 dark:via-purple-400 dark:to-blue-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-gray-800 via-gray-600 to-slate-700 dark:from-white dark:via-gray-200 dark:to-gray-300 bg-clip-text text-transparent">
                 High-Quality
               </span>
               <br />
@@ -109,7 +109,7 @@ function App() {
               Fast, reliable, and secure connections for all your data collection needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 dark:from-blue-500 dark:to-purple-500 dark:hover:from-blue-600 dark:hover:to-purple-600">
+              <Button size="lg" className="bg-gradient-to-r from-gray-800 to-slate-700 hover:from-gray-900 hover:to-slate-800 dark:from-gray-200 dark:to-gray-300 dark:hover:from-gray-100 dark:hover:to-gray-200 dark:text-gray-800">
                 Start Free Trial
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -233,7 +233,7 @@ function App() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-blue-300 dark:hover:border-blue-600 transition-colors bg-white dark:bg-[#1f1f1f]">
+            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-gray-400 dark:hover:border-gray-500 transition-colors bg-white dark:bg-[#1f1f1f]">
               <CardHeader>
                 <CardTitle className="text-2xl dark:text-slate-100">Starter</CardTitle>
                 <CardDescription className="dark:text-slate-400">Perfect for small projects</CardDescription>
@@ -267,8 +267,8 @@ function App() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-blue-300 dark:border-blue-600 shadow-lg scale-105 relative bg-white dark:bg-[#1f1f1f]">
-              <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-600 dark:bg-blue-500">
+            <Card className="border-2 border-gray-400 dark:border-gray-500 shadow-lg scale-105 relative bg-white dark:bg-[#1f1f1f]">
+              <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gray-800 dark:bg-gray-200 dark:text-gray-800">
                 Most Popular
               </Badge>
               <CardHeader>
@@ -302,13 +302,13 @@ function App() {
                     <span className="dark:text-slate-300">IP rotation</span>
                   </li>
                 </ul>
-                <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
+                <Button className="w-full mt-6 bg-gray-800 hover:bg-gray-900 dark:bg-gray-200 dark:hover:bg-gray-100 dark:text-gray-800">
                   Get Started
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-purple-300 dark:hover:border-purple-600 transition-colors bg-white dark:bg-[#1f1f1f]">
+            <Card className="border-2 border-slate-200 dark:border-[#2a2a2a] hover:border-gray-400 dark:hover:border-gray-500 transition-colors bg-white dark:bg-[#1f1f1f]">
               <CardHeader>
                 <CardTitle className="text-2xl dark:text-slate-100">Enterprise</CardTitle>
                 <CardDescription className="dark:text-slate-400">For large scale operations</CardDescription>
@@ -361,7 +361,7 @@ function App() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg dark:shadow-slate-900/20 bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg dark:shadow-black/20 bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardContent className="pt-6">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
@@ -384,7 +384,7 @@ function App() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg dark:shadow-slate-900/20 bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg dark:shadow-black/20 bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardContent className="pt-6">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
@@ -407,7 +407,7 @@ function App() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg dark:shadow-slate-900/20 bg-white dark:bg-slate-800">
+            <Card className="border-0 shadow-lg dark:shadow-black/20 bg-white dark:bg-[#202020] dark:border-[#2a2a2a]">
               <CardContent className="pt-6">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
@@ -457,7 +457,7 @@ function App() {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-green-100 dark:bg-green-950 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-green-100 dark:bg-green-900/30 rounded-lg flex items-center justify-center mr-4">
                     <Phone className="h-6 w-6 text-green-600 dark:text-green-400" />
                   </div>
                   <div>
@@ -467,7 +467,7 @@ function App() {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-purple-100 dark:bg-purple-950 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center mr-4">
                     <MapPin className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                   </div>
                   <div>
@@ -522,7 +522,7 @@ function App() {
                       className="min-h-[120px]"
                     />
                   </div>
-                  <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 dark:from-blue-500 dark:to-purple-500 dark:hover:from-blue-600 dark:hover:to-purple-600">
+                  <Button className="w-full bg-gradient-to-r from-gray-800 to-slate-700 hover:from-gray-900 hover:to-slate-800 dark:from-gray-200 dark:to-gray-300 dark:hover:from-gray-100 dark:hover:to-gray-200 dark:text-gray-800">
                     Send Message
                   </Button>
                 </form>
@@ -538,7 +538,7 @@ function App() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-gradient-to-r from-gray-600 to-slate-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-lg">N</span>
                 </div>
                 <span className="text-2xl font-bold">Nato</span>
